@@ -1,0 +1,384 @@
+body{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bodyHome{
+    margin: 0px;
+    background-image: url(../assets/images/imagehome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* style nav */
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 600px;
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+nav ul li{
+    background-color: lightcyan;
+    width: 100px;
+    height: 41px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px;
+}
+.logoNav{
+    margin-right: 1200px;
+    border-radius: 50px;
+    height: 75px;
+}
+
+/* home presentacion */
+.homePrincipal{
+    height: 770px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+h1{
+    padding-top: 300px;
+    margin-bottom: -20px;
+    font-size: 100px;
+    color: lightcyan;
+    text-shadow: 5px 5px 5px black;
+
+}
+h2{
+    font-size: 40px;
+    padding-bottom: 350px;
+    padding-left: 350px;
+    color: lightcyan;
+    text-shadow: 5px 5px 5px black;
+}
+
+/* scroll home caracteristicas de la energia renovable */
+aside{
+    background-color: lightcyan;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.divSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    margin-top: 100px;
+    margin-right: 80px;
+    width: 1000px;
+    height: 800px;
+    transition: all 1.5s;
+    opacity: 0;
+}
+.divSection:hover{
+    opacity: 1;
+}
+.carousel{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 100px;
+    box-shadow: 10px 10px 10px;
+}
+.carousel-item{
+    height: 800px;
+    width: 600px;
+    background-size: cover;
+}
+h3{
+    margin-right: 650px;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    font-size: 20px;
+}
+p{
+    font-size: 19px;
+}
+/* FOOTER */
+footer{
+    height: 100px;
+    color: lightcyan;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+h4{
+    width: 60%;
+    text-align-last: center;
+    padding-top: 10px;
+}
+.copyFooter{
+    text-align-last: center;
+    width: 10%;
+    padding-top: 10px;
+}
+.logoIg{
+    border-radius: 80px;
+    height: 50px;
+    width: 50px;
+    transition: all 1s;
+}
+.logoIg:hover{
+    height: 75px;
+    width: 75px;
+}
+.logoLinkedin{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    transition: all 1s;
+}
+.logoLinkedin:hover{
+    height: 75px;
+    width: 75px;
+}
+.logoWsp{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    transition: all 1s;
+}
+.logoWsp:hover{
+    height: 75px;
+    width: 75px;
+}
+.divLogos{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+/* pagina nosotros */
+.logoNavPages{
+    background-color: #f6db9c;
+    box-shadow: 5px 5px 10px
+}
+.divNosotros{
+    display: flex;
+}
+.parrafoEmpresa{
+    padding: 100px;
+    width: 60%;
+    font-size: 25px;
+    border-radius: 50px;
+    background-color: lightgrey;
+    text-align-last: center;
+    box-shadow: 5px 5px 5px;
+}
+.fotoNosotros{
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 600px;
+    width: 40%;
+    box-shadow: 10px 10px 10px;
+}
+footer{
+    background-image: url(../assets/images/imagehome.jpg);
+    background-position: bottom;
+}
+/* pagina instalaciones */
+.container{
+    background-image: url(../assets/images/fondoinstalaciones.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container2{
+    width: 1500px;
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card1{
+    background-color: lightcyan;
+    width: 30%;
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px;
+}
+.card2{
+    background-color: lightcyan;
+    width: 30%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px;
+}
+.card3{
+    background-color: lightcyan;
+    width: 30%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px;
+}
+.imgCard1{
+    height: 300px;
+    width: 300px;
+    margin: 70px;
+    margin-bottom: -1px ;
+    box-shadow: 5px 5px 5px;
+}
+.imgCard2{
+    height: 300px;
+    width: 300px;
+    margin: 70px;
+    margin-bottom: -1px ;
+    box-shadow: 5px 5px 5px;
+}
+.imgCard3{
+    height: 300px;
+    width: 300px;
+    margin: 70px;
+    box-shadow: 5px 5px 5px;
+    margin-bottom: -1px ; 
+}
+.conexion{
+    font-size: 27px;
+}
+.parrafoInstalaciones{
+    font-size: 22px;
+    line-height: 40px;
+}
+/* pagina contacto */
+.bodyContacto{
+    background-image: url(../assets/images/relieve.jpg);
+}
+form{
+    margin: auto;
+    width: 800px;
+    height: 900px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: rgb(0,0,0,0.4);
+    text-align: center;
+}
+.tituloForm{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 40px;
+    margin-bottom: -200px;
+}
+input, textarea{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 400px;
+}
+/* pagina producto */
+.gridContainer{
+    margin: 0px;
+    height: 1200px;
+    width: 100%;
+   background-image: url(../assets/images/fondoproductos.jpg);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 40% 40% ;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.gridCard1 {
+    background-color: lightcyan;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px;
+}
+.imageCard1{
+    height: 200px;
+    width: 80%;
+    margin: 30px;
+}
+.gridCard2{
+    background-color: lightcyan;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px;
+}
+.gridCard3{
+    background-color: lightcyan;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px;
+}
+.gridCard4{
+    background-color: lightcyan;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px;
+}
+.gridCard5{
+    background-color: lightcyan;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px;
+}
+.gridCard6{
+    background-color: lightcyan;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px;
+}
