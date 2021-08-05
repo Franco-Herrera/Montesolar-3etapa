@@ -133,12 +133,14 @@ footer{
 h4{
     width: 60%;
     text-align-last: center;
-    padding-top: 10px;
+    padding-top: 40px;
+    font-size: 15px;
 }
 .copyFooter{
     text-align-last: center;
     width: 10%;
-    padding-top: 10px;
+    padding-top: 30px;
+    font-size: 15px;
 }
 .logoIg{
     border-radius: 80px;
