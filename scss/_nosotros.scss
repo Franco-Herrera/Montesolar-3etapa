@@ -1,0 +1,23 @@
+.divNosotros{
+    display: flex;
+    background-color: lightsalmon;
+
+    .parrafoEmpresa{
+        padding: 100px;
+        width: 60%;
+        font-size: 25px;
+        border-radius: 50px;
+        background-color: lightgrey;
+        text-align-last: center;
+        box-shadow: 5px 5px 5px;
+    }
+
+    .fotoNosotros{
+        margin-top: 150px;
+        margin-left: 100px;
+        margin-right: 100px;
+        height: 600px;
+        width: 40%;
+        box-shadow: 10px 10px 10px;
+    }
+}

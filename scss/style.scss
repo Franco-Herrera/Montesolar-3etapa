@@ -1,0 +1,143 @@
+@import "home";
+@import "instalaciones";
+@import "productos";
+@import "contacto";
+@import "nosotros";
+
+body{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    background-color: white;
+        ul{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 600px;
+        list-style: none;
+
+            li{
+            background-color: lightcyan;
+            width: 100px;
+            height: 41px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
+            box-shadow: 5px 5px 10px;
+
+                a{
+                text-decoration: none;
+                color: black;
+            
+                }
+            }
+    
+        }
+}
+.logoNav{
+    margin-right: 1200px;
+    border-radius: 50px;
+    height: 75px;
+}
+.homePrincipal{
+    height: 770px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+    h1{
+        padding-top: 300px;
+        margin-bottom: -20px;
+        font-size: 100px;
+        color: lightcyan;
+        text-shadow: 5px 5px 5px black;    
+    }
+    h2{
+        font-size: 40px;
+        padding-bottom: 350px;
+        padding-left: 350px;
+        color: lightcyan;
+        text-shadow: 5px 5px 5px black;
+    }
+}
+footer{
+    height: 100px;
+    color: lightcyan;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #303438;
+
+    .logoLinkedin{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        transition: all 1s;
+    }
+
+    .logoLinkedin:hover{
+        height: 75px;
+        width: 75px;
+        cursor: pointer;
+    }
+
+    .logoWsp{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        transition: all 1s;
+    }
+
+    .logoWsp:hover{
+        height: 75px;
+        width: 75px;
+        cursor: pointer;
+    }
+
+    .divLogos{
+        display: flex;
+        justify-content: space-around;
+        width: 20%;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    
+    .logoIg:hover{
+        height: 75px;
+        width: 75px;
+        cursor: pointer;
+    }
+
+    .logoIg{
+        border-radius: 80px;
+        height: 50px;
+        width: 50px;
+        transition: all 1s;
+    }
+
+    .copyFooter{
+        text-align-last: center;
+        width: 10%;
+        padding-top: 30px;
+        font-size: 15px;
+    }
+
+    h4{
+        width: 60%;
+        text-align-last: center;
+        padding-top: 40px;
+        font-size: 15px;
+        
+    }
+
+}
+
+

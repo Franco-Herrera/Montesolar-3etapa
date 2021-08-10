@@ -1,0 +1,446 @@
+body {
+  margin: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.bodyHome {
+  margin: 0px;
+  background-image: url(../assets/images/imagehome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 80px;
+  background-color: white; }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 600px;
+    list-style: none; }
+    nav ul li {
+      background-color: lightcyan;
+      width: 100px;
+      height: 41px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 30px;
+      box-shadow: 5px 5px 10px; }
+      nav ul li a {
+        text-decoration: none;
+        color: black; }
+
+.logoNav {
+  margin-right: 1200px;
+  border-radius: 50px;
+  height: 75px; }
+
+.homePrincipal {
+  height: 770px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column; }
+  .homePrincipal h1 {
+    padding-top: 300px;
+    margin-bottom: -20px;
+    font-size: 100px;
+    color: lightcyan;
+    text-shadow: 5px 5px 5px black; }
+  .homePrincipal h2 {
+    font-size: 40px;
+    padding-bottom: 350px;
+    padding-left: 350px;
+    color: lightcyan;
+    text-shadow: 5px 5px 5px black; }
+
+aside {
+  background-color: lightcyan;
+  height: 1000px;
+  display: flex;
+  justify-content: space-between; }
+  aside .carousel {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 100px;
+    box-shadow: 10px 10px 10px; }
+    aside .carousel .carousel-item {
+      height: 800px;
+      width: 600px;
+      background-size: cover; }
+  aside .divSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-right: 80px;
+    width: 1000px;
+    height: 800px;
+    transition: all 1.5s;
+    opacity: 0; }
+    aside .divSection p {
+      font-size: 19px; }
+    aside .divSection h3 {
+      margin-right: 650px;
+      display: flex;
+      justify-content: center;
+      background-color: gray;
+      border-radius: 20px;
+      box-shadow: 5px 5px 5px;
+      font-size: 20px; }
+
+.divSection:hover {
+  opacity: 1; }
+
+footer {
+  height: 100px;
+  color: lightcyan;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #303438; }
+  footer .logoLinkedin {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    transition: all 1s; }
+  footer .logoLinkedin:hover {
+    height: 75px;
+    width: 75px;
+    cursor: pointer; }
+  footer .logoWsp {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    transition: all 1s; }
+  footer .logoWsp:hover {
+    height: 75px;
+    width: 75px;
+    cursor: pointer; }
+  footer .divLogos {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    padding-top: 15px;
+    padding-bottom: 10px; }
+  footer .logoIg:hover {
+    height: 75px;
+    width: 75px;
+    cursor: pointer; }
+  footer .logoIg {
+    border-radius: 80px;
+    height: 50px;
+    width: 50px;
+    transition: all 1s; }
+  footer .copyFooter {
+    text-align-last: center;
+    width: 10%;
+    padding-top: 30px;
+    font-size: 15px; }
+  footer h4 {
+    width: 60%;
+    text-align-last: center;
+    padding-top: 40px;
+    font-size: 15px; }
+
+.container {
+  background-image: url(../assets/images/imagehome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+  .container .container2 {
+    width: 1500px;
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .container .container2 .card1 {
+      background-color: lightcyan;
+      width: 30%;
+      height: 780px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      border-radius: 30px;
+      box-shadow: 5px 5px 5px; }
+      .container .container2 .card1 .imgCard1 {
+        height: 300px;
+        width: 300px;
+        margin: 70px;
+        margin-bottom: -1px;
+        box-shadow: 5px 5px 5px; }
+    .container .container2 .card2 {
+      background-color: lightcyan;
+      width: 30%;
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      border-radius: 30px;
+      box-shadow: 5px 5px 5px; }
+      .container .container2 .card2 .imgCard2 {
+        height: 300px;
+        width: 300px;
+        margin: 70px;
+        margin-bottom: -1px;
+        box-shadow: 5px 5px 5px; }
+    .container .container2 .card3 {
+      background-color: lightcyan;
+      width: 30%;
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      border-radius: 30px;
+      box-shadow: 5px 5px 5px; }
+      .container .container2 .card3 .imgCard3 {
+        height: 300px;
+        width: 300px;
+        margin: 70px;
+        box-shadow: 5px 5px 5px;
+        margin-bottom: -1px; }
+
+.parrafoInstalaciones {
+  font-size: 20px;
+  line-height: 40px;
+  text-align: left;
+  padding: 20px; }
+
+.conexion {
+  font-size: 27px; }
+
+.gridContainer {
+  margin: 0px;
+  height: 1200px;
+  width: 100%;
+  background-image: url(../assets/images/imagehome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  grid-template-rows: 40% 40%;
+  justify-content: space-around;
+  align-content: space-around; }
+  .gridContainer .gridCard1 {
+    background-color: lightcyan;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px; }
+  .gridContainer .imageCard1 {
+    height: 200px;
+    width: 80%;
+    margin: 30px; }
+  .gridContainer .gridCard2 {
+    background-color: lightcyan;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px; }
+  .gridContainer .gridCard3 {
+    background-color: lightcyan;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px; }
+  .gridContainer .gridCard4 {
+    background-color: lightcyan;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px; }
+  .gridContainer .gridCard5 {
+    background-color: lightcyan;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px; }
+  .gridContainer .gridCard6 {
+    background-color: lightcyan;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px; }
+
+.bodyContacto {
+  background-image: url(../assets/images/imagehome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+form {
+  margin-top: 100px;
+  margin-left: 500px;
+  margin-bottom: 100px;
+  width: 800px;
+  height: 800px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: gray;
+  text-align: center; }
+
+.tituloForm {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 40px;
+  margin-bottom: -200px; }
+
+input, textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 400px;
+  transform: translateY(200px); }
+
+.divNosotros {
+  display: flex;
+  background-color: lightsalmon; }
+  .divNosotros .parrafoEmpresa {
+    padding: 100px;
+    width: 60%;
+    font-size: 25px;
+    border-radius: 50px;
+    background-color: lightgrey;
+    text-align-last: center;
+    box-shadow: 5px 5px 5px; }
+  .divNosotros .fotoNosotros {
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 600px;
+    width: 40%;
+    box-shadow: 10px 10px 10px; }
+
+body {
+  margin: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 80px;
+  background-color: white; }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 600px;
+    list-style: none; }
+    nav ul li {
+      background-color: lightcyan;
+      width: 100px;
+      height: 41px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 30px;
+      box-shadow: 5px 5px 10px; }
+      nav ul li a {
+        text-decoration: none;
+        color: black; }
+
+.logoNav {
+  margin-right: 1200px;
+  border-radius: 50px;
+  height: 75px; }
+
+.homePrincipal {
+  height: 770px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column; }
+  .homePrincipal h1 {
+    padding-top: 300px;
+    margin-bottom: -20px;
+    font-size: 100px;
+    color: lightcyan;
+    text-shadow: 5px 5px 5px black; }
+  .homePrincipal h2 {
+    font-size: 40px;
+    padding-bottom: 350px;
+    padding-left: 350px;
+    color: lightcyan;
+    text-shadow: 5px 5px 5px black; }
+
+footer {
+  height: 100px;
+  color: lightcyan;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #303438; }
+  footer .logoLinkedin {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    transition: all 1s; }
+  footer .logoLinkedin:hover {
+    height: 75px;
+    width: 75px;
+    cursor: pointer; }
+  footer .logoWsp {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    transition: all 1s; }
+  footer .logoWsp:hover {
+    height: 75px;
+    width: 75px;
+    cursor: pointer; }
+  footer .divLogos {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    padding-top: 15px;
+    padding-bottom: 10px; }
+  footer .logoIg:hover {
+    height: 75px;
+    width: 75px;
+    cursor: pointer; }
+  footer .logoIg {
+    border-radius: 80px;
+    height: 50px;
+    width: 50px;
+    transition: all 1s; }
+  footer .copyFooter {
+    text-align-last: center;
+    width: 10%;
+    padding-top: 30px;
+    font-size: 15px; }
+  footer h4 {
+    width: 60%;
+    text-align-last: center;
+    padding-top: 40px;
+    font-size: 15px; }

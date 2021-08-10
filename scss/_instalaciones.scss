@@ -1,0 +1,85 @@
+.container{
+    background:{
+        image: url(../assets/images/imagehome.jpg);
+        repeat: no-repeat;
+        size: cover;
+        position: center;
+        attachment: fixed;
+    } 
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    .container2{
+        width: 1500px;
+        margin: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .card1{
+            background-color: lightcyan;
+            width: 30%;
+            height: 780px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border-radius: 30px;
+            box-shadow: 5px 5px 5px;
+
+            .imgCard1{
+                height: 300px;
+                width: 300px;
+                margin: 70px;
+                margin-bottom: -1px ;
+                box-shadow: 5px 5px 5px;
+            }
+        }
+        .card2{
+            background-color: lightcyan;
+            width: 30%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border-radius: 30px;
+            box-shadow: 5px 5px 5px;
+
+            .imgCard2{
+                height: 300px;
+                width: 300px;
+                margin: 70px;
+                margin-bottom: -1px ;
+                box-shadow: 5px 5px 5px;
+            }
+        }
+        .card3{
+            background-color: lightcyan;
+            width: 30%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border-radius: 30px;
+            box-shadow: 5px 5px 5px;
+
+            .imgCard3{
+                height: 300px;
+                width: 300px;
+                margin: 70px;
+                box-shadow: 5px 5px 5px;
+                margin-bottom: -1px ; 
+            }
+        }
+    }
+}
+.parrafoInstalaciones{
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+    padding: 20px;
+}
+.conexion{
+    font-size: 27px;
+}
